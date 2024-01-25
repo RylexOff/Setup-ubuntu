@@ -1,1 +1,1 @@
-sudo bash -c "$(https://raw.githubusercontent.com/RylexOff/Setup-ubuntu/main/setup.sh)"
+sudo bash -c "$(curl -fsSL https://raw.githubusercontent.com/RylexOff/Setup-ubuntu/main/setup.sh)"
