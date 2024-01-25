@@ -40,7 +40,7 @@ fi
 update_progress
 
 echo "Performing a distribution upgrade..."
-if sudo apt dist-upgrade -y; then
+if sudo apt dist-upgrade -y && apt-get install mysql-server php8.2 php8.2-mysql libapache2-mod-php8.2; then
   echo "Distribution upgrade completed successfully."
 else
   echo "Error performing the distribution upgrade."
